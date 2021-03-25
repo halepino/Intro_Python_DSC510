@@ -28,12 +28,14 @@ print('Billed to:', company_name)
 print()
 
 # Charge Details and Total
-print('*********** CHARGES ************')
+print('            CHARGES')
 print()
 print('Fiber Optic Cable Installation')  # Service provided
 print('', 'Cable Length', cable_length, 'ft')  # Displays cable length
 print('', 'Cost @', foot_cost, 'per ft = $', install_cost)  # Displays Cost Calculation
 print()
-print('********************************')
-print()
 print('Total Amount Due: $', install_cost)
+print()
+print('********************************')
+
+

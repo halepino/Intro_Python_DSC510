@@ -19,23 +19,20 @@ foot_cost = 0.87
 # Create variable for installation cost
 install_cost = (cable_length * foot_cost)
 
-# Print out installation costs in receipt format
-# Receipt header including company name
+# Format install_cost to currency
+install_cost = "${:,.2f}".format(install_cost)
+
+
+# Print Receipt
 print()
 print('*********** RECEIPT ************')
 print()
 print('Billed to:', company_name)
 print()
-
-# Charge Details and Total
-print('            CHARGES')
-print()
 print('Fiber Optic Cable Installation')  # Service provided
 print('', 'Cable Length', cable_length, 'ft')  # Displays cable length
-print('', 'Cost @', foot_cost, 'per ft = $', install_cost)  # Displays Cost Calculation
+print('', 'Cost @', foot_cost, 'per ft =', install_cost)  # Displays Cost Calculation
 print()
-print('Total Amount Due: $', install_cost)
+print('Total Amount Due:', install_cost)
 print()
 print('********************************')
-
-

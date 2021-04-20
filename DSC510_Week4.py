@@ -1,6 +1,8 @@
+# Program to calculate cable installation costs and print receipt
+# DSC 510
+# Programming Assignment 4.1 Week 4
 # Author: Holly Figueroa
-# Date: 03/31/21
-# Program to calculate cost of fiber optic cable installation including receipt
+# Date: 04/08/21
 
 
 # Function added to compute installation cost

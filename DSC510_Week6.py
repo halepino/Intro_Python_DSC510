@@ -19,10 +19,9 @@ def main():
             if temp_data in {"q", "Q"}:
                 break
 
-            # Add input to temps list/specify as numeric data only
+            # Add input to temps list/specify a numeric form
             try:
                 float(temp_data)
-                print("here")
                 temps.append(temp_data)
                 continue
 
